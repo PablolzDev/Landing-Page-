@@ -1,34 +1,75 @@
 *{
+    font-family: "EB Garamond";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
+
 }
 
 html{
     scroll-behavior: smooth;
 }
-
 body{
-    font-family: "EB Garamond";
+    background-color: var(--porsche)
 }
+
 
 #head{
     display: flex;
     align-items:center;
     justify-content: space-between;
     background-color: var(--primary);
-    padding:  20px 15px 20px;
+    position:fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    padding: 2px;
 }
 
-#navbar{
+.navbar{
     display: flex;
-    gap: 4px;
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.navbar a{
+    color: var(--blanco);
+    text-decoration:wavy;
 }
 .arriba{
     display: flex;
     align-items: center;
     gap: 20px;
-    margin: 20px
+    margin: 5px
+}
+ 
+#portada{
+    
+    
+} 
+
+#imagen-portada{
+    width: 110%;
+    opacity: 0.5;
+}
+
+#texto-portada{
+    position: relative;
+    z-index: 1;
+    bottom: 520px;
+    left: 10%;
+    right: 0;
+    color: var(--blanco);
+    font-size:500%;
+}
+
+.subrayado{
+    text-decoration:solid;
+    background-color: var(--primary);
+    color: var(--porsche);
+    padding: 2px;
 }
 
 .icons{
