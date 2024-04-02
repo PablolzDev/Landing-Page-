@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "EB Garamond";
+}
+
+#head{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding:  20px 15px 20px;
+}
+
+#navbar{
+    display: flex;
+    gap: 4px;
+}
+.arriba{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    color: var(--blanco);
+}
