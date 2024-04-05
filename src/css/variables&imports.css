@@ -7,4 +7,13 @@
     --porsche: #d99d52;
     --primary: #954e24;
     --blanco: #E9E9E9;
+    --gris: #f0f0f0;
+    --negro: #101010;
+}
+
+i {
+    font-size: 200%;
+    color: var(--blanco);
+    align-items: center;
+    justify-content: center;
 }

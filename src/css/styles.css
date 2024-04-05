@@ -14,7 +14,7 @@ body{
     background-color: var(--porsche)
 }
 
-
+ /* ------------Cabecera---------*/
 #head{
     display: flex;
     align-items:center;
@@ -35,7 +35,7 @@ body{
 }
 
 .navbar a{
-    color: var(--blanco);
+    color: var(--gris);
     text-decoration:wavy;
 }
 .arriba{
@@ -45,22 +45,23 @@ body{
     margin: 5px
 }
  
+
+/* Portada principal */
 #portada{
-    
-    
+    position: sticky;
+    background-image: url(https://i.blogs.es/cad108/foto-1/1366_2000.jpg);
+    padding: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.6;
+    background-blend-mode: multiply;
+
 } 
 
-#imagen-portada{
-    width: 110%;
-    opacity: 0.5;
-}
-
 #texto-portada{
-    position: relative;
-    z-index: 1;
-    bottom: 520px;
-    left: 10%;
-    right: 0;
+   
     color: var(--blanco);
     font-size:500%;
 }
