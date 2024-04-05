@@ -81,3 +81,15 @@ body{
 h1{
     color: var(--blanco);
 }
+
+
+/* section 1 : inicio */
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding:14px;
+}
