@@ -1,4 +1,17 @@
+/* ---Personalizacion de imagenes---- */
 .image{
+    -webkit-box-shadow: -19px 34px 20px 12px rgba(0,0,0,0.69);
+    -moz-box-shadow: -19px 34px 20px 12px rgba(0,0,0,0.69);
+    box-shadow: -19px 34px 20px 12px rgba(0,0,0,0.69);
+    border-radius: 5px;
     width: 500px;
     height: 250px;
+    margin: 30px;
 }
+
+.image-cards{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+

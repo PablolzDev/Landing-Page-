@@ -1,6 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
+/* ---Importaciones y normas del cuerpo--- */
+*{
+    font-family: "EB Garamond";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    /* background-image: linear-gradient(to bottom, #d99d52, #dfb06a,); */
+    background-image: var(--porsche);
+    text-decoration: none;
+}
 
 
 :root{
@@ -9,6 +27,9 @@
     --blanco: #E9E9E9;
     --gris: #f0f0f0;
     --negro: #101010;
+    --marron: #3a160e;
+    --claro: #dfb06a;
+
 }
 
 i {

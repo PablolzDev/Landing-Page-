@@ -24,34 +24,72 @@
     <title>R</title>
 </head>
 <body>
+    <!-- -----Cabeza de el proyecto----- -->
     <header id="head">
         <div class="arriba">
             <i class="bi bi-camera"></i>
             <h1>Chromatic Moments
             </h1>
         </div>    
+        <!-- -----barra de navegacion---- -->
         <nav class="navbar">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Project</a>
+            <a href="#Home">Home</a>
+            <a href="#project">Projects</a>
             <a href="">Contact</a>
         </nav>
     </header>
+
+    <!-- ------Cuerpo de el proyecto---- -->
     <main>
+        <!-- -----Portada----- -->
         <section id="portada">
-          
+            <div class="blur-overlay"></div>
             <article id="texto-portada">
-                <p>Tu estudio de <br><span class="subrayado">fotografía</span> </p><p> de confianza</p>
-            </article> 
-            
+              <p>Tu estudio de <br><span class="subrayado">Fotografía</span></p>
+              <p>De confianza</p>
+            </article>
+          </section>
+        <!-- ------Seccion Home------ -->
+        <section id="Home" class="section1">
+            <article class="container">
+                <div class="content-wrapper">   
+                    <h2 class="tittles">Lorem</h2>
+                    <p class="info-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nisi, voluptatem soluta nulla vero quo adipisci vitae, ullam repudiandae voluptates saepe incidunt possimus laboriosam corporis, blanditiis nam? Rerum, hic accusamus.
+                    </p>  
+                </div>  
+                <img src="./public/img/Foto-de-fotografo (1).webp"  alt="" class="image">
+            </article>
+
+            <article class="container">
+                <img src="./public/img/Foto-de-fotografo (1).webp"  alt="" class="image">
+                <div class="content-wrapper">  
+                    <h2 class="tittles">Lorem</h2>
+                    <p class="info-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nisi, voluptatem soluta nulla vero quo adipisci vitae, ullam repudiandae voluptates saepe incidunt possimus laboriosam corporis, blanditiis nam? Rerum, hic accusamus.
+                    </p>  
+                </div>         
+            </article>
         </section>
 
-        <section class="section1">
-            <p class="info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nisi, voluptatem soluta nulla vero quo adipisci vitae, ullam repudiandae voluptates saepe incidunt possimus laboriosam corporis, blanditiis nam? Rerum, hic accusamus.
-            </p>
-            
-            <img src="./public/img/Foto-de-fotografo (1).webp"  alt="" class="image">
+         <!-- ------Section 2 : Projects-------- -->
+        <section id="project" class="section2">
+            <h2 class="tittle-card">
+                Proyectos del Estudio
+            </h2>
+            <article class="cards">
+                <div>
+                    <img src="./public/img/side-view-woman-posing-with-plant.webp" alt="" class="image-cards">
+                </div>
+                <h3 class="tittle-cards"> Retratos </h3>
+                </div>
+                <div class="btn-card">
+                    <a href="">
+                      Saber mas  
+                    </a>
+                </div>
+            </article>
+
         </section>
     </main>
     <footer></footer>
