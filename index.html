@@ -20,14 +20,16 @@
     <link rel="stylesheet" href="./src/css/images.css">
     <link rel="stylesheet" href="./src/css/variables&imports.css"> 
     <link rel="stylesheet" href="./src/css/styles.css">
+
+    <link rel="shortcut icon" href="./public/img/exposure.svg " type="image/x-icon">
   
-    <title>R</title>
+    <title>Chromatic Moments</title>
 </head>
 <body>
     <!-- -----Cabeza de el proyecto----- -->
     <header id="head">
         <div class="arriba">
-            <i class="bi bi-camera"></i>
+            <a href="#Home"><i class="bi bi-exposure"></i></a>
             <h1>Chromatic Moments
             </h1>
         </div>    
@@ -35,7 +37,7 @@
         <nav class="navbar">
             <a href="#Home">Home</a>
             <a href="#project">Projects</a>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -77,21 +79,97 @@
             <h2 class="tittle-card">
                 Proyectos del Estudio
             </h2>
-            <article class="cards">
-                <div>
+            <article class="cards-container">
+                <div class="cards">
+                  <div>
                     <img src="./public/img/side-view-woman-posing-with-plant.webp" alt="" class="image-cards">
+                  </div>
+                  <h3 class="tittle-cards"> Retratos </h3>
+                  <div class="btn-card">
+                    <a href="#contact"> Saber más </a>
+                  </div>
                 </div>
-                <h3 class="tittle-cards"> Retratos </h3>
-                </div>
-                <div class="btn-card">
-                    <a href="">
-                      Saber mas  
-                    </a>
-                </div>
+                <article class="cards">
+                  <div>
+                    <img src="./public/img/white-glacier-mountain.webp" alt="" class="image-cards">
+                  </div>
+                  <h3 class="tittle-cards"> Fotos de montañas </h3>
+                  <div class="btn-card">
+                    <a href="#contact"> Saber más </a>
+                  </div>
+                </article>
+                <article class="cards">
+                  <div>
+                    <img src="./public/img/2148214225.webp" alt="" class="image-cards">
+                  </div>
+                  <h3 class="tittle-cards"> Fotos de montañas </h3>
+                  <div class="btn-card">
+                    <a href="#contact"> Saber más </a>
+                  </div>
+                </article>
+                <article class="cards">
+                  <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BTMjD7_evjE?si=b2lUucKjtIqvdXv7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <h3 class="tittle-cards"> Fotos de montañas </h3>
+                  <div class="btn-card">
+                    <a href="#contact"> Saber más </a>
+                  </div>
+                </article>
             </article>
-
         </section>
+        <!-- ---Aca terminan las cards--- -->
+
+        <!-- ----Empieza el formulario de contacto---- -->
+        <section id="contact" class="contactos">
+            <form  class="contacto" action="./index.html" enctype="multipart/form-data" method="get">
+                <h2>Contacto</h2>
+
+                <div class="formulario">
+                
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" id="apellido" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <label for="mail">Mail:</label>
+                        <input type="email" name="mail" id="mail" class="input-text" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" name="telefono" id="telefono" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <input type="submit" value="Enviar" class="btn-enviar" link="https://www.bancolombia.com/personas">
+                    </div>
+                </div>
+            </form>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0606284980117!2d-75.623847924184!3d6.255743476215271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442bd61b35b135%3A0x7ac589026488978b!2sSan%20Javier%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1712378121539!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- ---Finaliza el cuerpo del proyecto--- -->
+        
     </main>
-    <footer></footer>
+    <footer class="foot
+    ">
+    <div class="arriba">
+        <i class="bi bi-exposure"></i>
+        <h1>Chromatic Moments
+        </h1>
+    </div>    
+        <div class="redes">
+            <div class="info-text">
+                <p>Pueden seguirnos en nuestras redes-sociales</p>
+            </div>
+            <div class="redes-sociales">
+                <a href="https://github.com/PablolzDev" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/pablo-lopez-702501288/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/pablolz.dev/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

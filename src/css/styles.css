@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     background-color: var(--primary);
     position:fixed;
-    z-index: 3;
+    z-index: 100;
     top: 0;
     width: 100%;
     padding: 2px;
@@ -35,7 +35,7 @@ body{
 }
 
 .navbar a{
-    color: var(--gris);
+    color: var(--blanco);
     text-decoration:wavy;
     font-size: 17px;
 }
@@ -73,7 +73,7 @@ body{
     font-size: 140px;
     text-decoration:solid;
     background-color: var(--primary);
-    color: var(--gris);
+    color: var(--blanco);
     padding: 2px;
 }
 
@@ -122,7 +122,7 @@ h1{
 .info-text{
     font-size: 24px;
     text-align:start;
-    color: var(--gris);
+    color: var(--blanco);
     opacity: 0.7;
 }
 
@@ -130,21 +130,36 @@ h1{
 
 .section2{
     display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    flex-direction: column;
+    padding: 25px;
     background-color: var(--negro);
+    flex-wrap: wrap;
 }
+
+/*estilizaje de las cards y su contenido*/
 
 .cards{
-    margin: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    text-align: center;
 }
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
 .tittle-card{
+    position: relative;
+    left: 42%;
+    bottom: 10px;
     color: var(--claro);
-    margin: 40px;
     font-size: 40px;
 }
 
@@ -158,8 +173,6 @@ h1{
     padding-top: 6px;
     padding-right: 10px;
     padding-bottom: 6px;
-    font-size: 17px;
-    font-weight: 500;
     border-top-color: #ffffff;
     border-right-color: #ffffff;
     border-bottom-color: #ffffff;
@@ -176,5 +189,116 @@ h1{
 }
 
 .btn-card a{
- 
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--gris);
 }
+
+/* Formulario de contacto */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    max-width:700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--primary); 
+    border-radius: 10px;
+}
+.contacto h2{
+    position: absolute;
+    top: 10px; 
+    bottom: 20px; 
+    padding: 0px;
+    margin-bottom: 20px;
+    color: var(--claro);
+}
+
+
+.formulario{
+    margin: 25px;
+}
+
+.campo{
+    margin: 20px;
+}
+
+.formulario .campo {
+    margin-bottom: 15px;
+    width: 400px;
+    padding: 10px;
+}
+
+
+.formulario label {
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+
+.formulario .input-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--negro); 
+    border-radius: 5px;
+}
+
+
+.btn-enviar {
+    background-color: var(--claro); 
+    color:var(--blanco); 
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contactos{
+    display: flex;
+}
+.mapa {
+    flex: 1; 
+    max-width: 600px; 
+    height: 450px; 
+    border: 0;
+    margin: 100px;
+  }
+/* 
+Empezamos pie de pagina */
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary) ;
+    color: var(--blanco);
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.redes-sociales a{
+    color: var(--blanco);
+    text-decoration: none;
+   
+}
+.redes-sociales a {
+    margin-left: 10px; /* Ajusta el margen izquierdo para crear el espacio entre los iconos */
+}
+
+h3 {
+    margin: 0;
+}
+
